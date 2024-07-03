@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#landing_page {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./public/backgorund.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+#landing_page {
+  padding-top: 4rem;
+}
+#landing_page #heading {
+  padding: 1em;
+  padding-bottom: 0.5rem;
+  margin: 1rem;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#landing_page > div > h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#continer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+#fromlogin {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  height: 100%;
+  width: 120%;
+  align-items: center;
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+  padding: 1rem;
+  margin-top: 0rem;
+  width: min-content;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#link a {
+  text-decoration: none;
+  color: black;
+}
+.active button{
+  color: #1677FF;
+  border-color: #1677FF;
+} 
